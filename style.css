@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+padding-top: 10%;
+}
+
+.container{
+    width: 700px;
+    height: 400px;
+      box-shadow:  17px 17px 34px #c5c5c5,
+    -17px -17px 34px #fbfbfb;
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+
+.container .h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container h1{
+    font-family:  Borel ;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+
+.quotes{
+    font-family:  Borel ;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.author{
+  
+    font-family: Borel;
+    text-transform: capitalize;
+   text-align: center;
+    font-size: 20px;
+  
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+button{
+    position: fixed;
+    top: 480px;
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 128, 0.918);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+@media screen  and (max-width:600px){
+    
+    .container{
+        width: 700px;
+        height: 400px;
+        box-shadow: none;
+        padding: 20px;
+        border-radius: 20px;
+text-align: center;
+margin-top: 15%;
+    }
+    
+    .container .h1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container h1{
+        font-family:  Borel ;
+        text-transform: capitalize;
+        font-size: 30px;
+    }
+    
+    .quotes{
+        font-family:  Borel ;
+        text-transform: capitalize;
+        margin-top: 20px;
+        font-size: 23px;
+        font-weight: 800;
+    }
+    
+    .author{
+     text-align: center;
+        font-family: Borel;
+        text-transform: capitalize;
+      
+        margin-top: 5%;
+        font-size: 20px;
+      
+    }
+    
+    .button{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+       
+    }
+    
+    button{
+        position: absolute;
+       bottom: 0;
+        width: 90%;
+        height: 60px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 128, 0.918);
+        border: none;
+        color: #fff;
+        font-size: 25px;
+        text-transform: capitalize;
+    
+    }
+
+}
